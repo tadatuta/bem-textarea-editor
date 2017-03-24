@@ -16,7 +16,7 @@ or `bower`
 bower i bem-textarea-editor bem-font-awersome-icons --save
 ```
 
-2. Add `common.blocks` as redefinition level to your build config.
+2. Add `bem-textarea-editor/common.blocks` and `bem-font-awersome-icons` as redefinition levels to your build config.
 
 ## Usage
 
