@@ -1,0 +1,34 @@
+{
+  "name": "bem-textarea-editor",
+  "version": "1.0.0",
+  "description": "textarea-editor component based on i-bem.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint . && stylelint *.blocks/**/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadatuta/bem-textarea-editor.git"
+  },
+  "keywords": [
+    "bem",
+    "editor",
+    "components",
+    "WYSIWYG"
+  ],
+  "author": "Vladimir Grinenko <i@tadatuta.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tadatuta/bem-textarea-editor/issues"
+  },
+  "homepage": "https://github.com/tadatuta/bem-textarea-editor#readme",
+  "devDependencies": {
+    "bem-font-awesome-icons": "^1.0.2",
+    "eslint": "^3.18.0",
+    "eslint-config-pedant": "^0.8.0",
+    "eslint-plugin-bem-xjst": "^2.1.0",
+    "stylelint": "^7.9.0",
+    "stylelint-config-standard": "^16.0.0"
+  }
+}

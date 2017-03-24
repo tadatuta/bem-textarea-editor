@@ -1,0 +1,22 @@
+{
+  "name": "bem-textarea-editor",
+  "description": "textarea-editor component based on i-bem.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tadatuta/bem-textarea-editor.git"
+  },
+  "homepage": "https://github.com/tadatuta/bem-textarea-editor",
+  "main": "",
+  "keywords": [
+    "bem",
+    "components",
+    "editor",
+    "WYSIWYG"
+  ],
+  "ignore": [
+    "*",
+    "!common.blocks/**",
+    "!*.md",
+    "!LICENSE.txt"
+  ]
+}

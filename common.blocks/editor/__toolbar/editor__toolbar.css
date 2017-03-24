@@ -1,0 +1,9 @@
+.editor__toolbar {
+    margin-bottom: 10px;
+}
+
+.editor__toolbar .icon {
+    margin: 0 10px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
