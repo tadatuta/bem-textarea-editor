@@ -16,7 +16,7 @@ modules.define('editor__internal', function(provide) {
         return escapeStringRegexp;
     }
 
-    /* borschik:include:../../node_modules/textarea-editor/build/index.js */
+    /* borschik:include:../../../node_modules/textarea-editor/build/index.js */
 
     provide(exports.default);
 })({});

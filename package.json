@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint . && stylelint *.blocks/**/*.css"
+    "lint": "eslint . && stylelint *.blocks/**/*.css",
+    "prepublish": "borschik -i common.blocks/editor/__internal/editor__internal.src.js -o common.blocks/editor/__internal/editor__internal.js --minimize=no"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,12 @@
   "homepage": "https://github.com/tadatuta/bem-textarea-editor#readme",
   "devDependencies": {
     "bem-font-awesome-icons": "^1.0.2",
+    "borschik": "^1.7.0",
     "eslint": "^3.18.0",
     "eslint-config-pedant": "^0.8.0",
     "eslint-plugin-bem-xjst": "^2.1.0",
     "stylelint": "^7.9.0",
-    "stylelint-config-standard": "^16.0.0"
+    "stylelint-config-standard": "^16.0.0",
+    "textarea-editor": "^1.0.1"
   }
 }
