@@ -18,6 +18,11 @@
     "components",
     "WYSIWYG"
   ],
+  "files": [
+    "common.blocks",
+    "common.blocks/editor/editor__internal/editor__internal.js",
+    "README.ru.md"
+  ],
   "author": "Vladimir Grinenko <i@tadatuta.com>",
   "license": "MIT",
   "bugs": {
