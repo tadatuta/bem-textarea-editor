@@ -2,6 +2,8 @@
 
 textarea-editor component based on [i-bem.js](https://en.bem.info/platform/i-bem/).
 
+[Demo](https://tadatuta.github.io/bem-textarea-editor/).
+
 Uses [textarea-editor](https://github.com/eivindfjeldstad/textarea-editor) under the hood.
 Depends on [bem-font-awesome-icons](https://github.com/tadatuta/bem-font-awesome-icons/).
 
