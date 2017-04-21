@@ -11,14 +11,14 @@ Depends on [bem-font-awesome-icons](https://github.com/tadatuta/bem-font-awesome
 
 1. Install packages via `npm`
 ```
-npm i bem-textarea-editor bem-font-awersome-icons --save-dev
+npm i bem-textarea-editor bem-font-awesome-icons --save-dev
 ```
 or `bower`
 ```
-bower i bem-textarea-editor bem-font-awersome-icons --save
+bower i bem-textarea-editor bem-font-awesome-icons --save
 ```
 
-2. Add `bem-textarea-editor/common.blocks` and `bem-font-awersome-icons` as redefinition levels to your build config.
+2. Add `bem-textarea-editor/common.blocks` and `bem-font-awesome-icons` as redefinition levels to your build config.
 
 ## Usage
 
