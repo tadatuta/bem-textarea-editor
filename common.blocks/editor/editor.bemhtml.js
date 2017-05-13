@@ -40,13 +40,20 @@ block('editor')(
         ];
     }),
     elem('textarea').replace()(function() {
+        var ctx = this.ctx;
+
         return {
             block: 'textarea',
             mods: this.elemMods,
             mix: {
                 block: this.block,
                 elem: this.elem
-            }
+            },
+            name: ctx.name,
+            val: ctx.val,
+            placeholder: ctx.placeholder,
+            id: ctx.id,
+            tabIndex: ctx.tabIndex
         };
     })
 );
